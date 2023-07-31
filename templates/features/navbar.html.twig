@@ -1,0 +1,36 @@
+{% block navbar %}
+	<nav class="navbar">
+		<div class="logo">
+			<a href="/">
+				<img class="img-navbar" src="{{ asset('assets/img/logo.png')}}" alt="Logo IDDEES">
+			</a>
+		</div>
+		<ul class="ul-navbar">
+			<li class="li-navbar">
+				<a class="lien-navbar" href="#">Qui sommes-nous ?</a>
+			</li>
+			<li class="li-navbar">
+				<a class="lien-navbar" href="#">Nos sites de collecte <br> Nos braderies</a>
+			</li>
+			<li class="li-navbar">
+				<a class="lien-navbar" href="#">Sensibilisation</a>
+			</li>
+			<li class="li-navbar">
+				<a class="lien-navbar" href="/partenaires">Nos partenaires</a>
+			</li>
+			<li class="li-navbar">
+				<a class="lien-navbar" href="#">
+					Nous contacter<br>
+					Adhérer<br>
+					Demander une collecte</a>
+			</li>
+
+		</ul>
+				<div class="burger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+	</nav>
+
+{% endblock %}
